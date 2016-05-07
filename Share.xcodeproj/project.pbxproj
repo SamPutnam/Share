@@ -11,9 +11,11 @@
 		A9B7EE181CDE14A00007D1F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7EE171CDE149F0007D1F0 /* ViewController.swift */; };
 		A9B7EE1B1CDE14A00007D1F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B7EE191CDE14A00007D1F0 /* Main.storyboard */; };
 		A9B7EE1D1CDE14A00007D1F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B7EE1C1CDE14A00007D1F0 /* Assets.xcassets */; };
-		A9B7EE201CDE14A00007D1F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B7EE1E1CDE14A00007D1F0 /* LaunchScreen.storyboard */; };
+		A9B7EE201CDE14A00007D1F0 /* Launchscreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B7EE1E1CDE14A00007D1F0 /* Launchscreen.storyboard */; };
 		A9B7EE2B1CDE14A00007D1F0 /* ShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7EE2A1CDE14A00007D1F0 /* ShareTests.swift */; };
 		A9B7EE361CDE14A00007D1F0 /* ShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7EE351CDE14A00007D1F0 /* ShareUITests.swift */; };
+		A9B7EE441CDE17930007D1F0 /* LaunchScreenImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B7EE431CDE17930007D1F0 /* LaunchScreenImage.png */; };
+		A9B7EE461CDE1BBC0007D1F0 /* TwitterLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B7EE451CDE1BBC0007D1F0 /* TwitterLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		A9B7EE171CDE149F0007D1F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9B7EE1A1CDE14A00007D1F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9B7EE1C1CDE14A00007D1F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A9B7EE1F1CDE14A00007D1F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9B7EE1F1CDE14A00007D1F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Launchscreen.storyboard; sourceTree = "<group>"; };
 		A9B7EE211CDE14A00007D1F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9B7EE261CDE14A00007D1F0 /* ShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B7EE2A1CDE14A00007D1F0 /* ShareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareTests.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		A9B7EE311CDE14A00007D1F0 /* ShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B7EE351CDE14A00007D1F0 /* ShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareUITests.swift; sourceTree = "<group>"; };
 		A9B7EE371CDE14A00007D1F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B7EE431CDE17930007D1F0 /* LaunchScreenImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreenImage.png; sourceTree = "<group>"; };
+		A9B7EE451CDE1BBC0007D1F0 /* TwitterLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwitterLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +101,13 @@
 		A9B7EE141CDE149F0007D1F0 /* Share */ = {
 			isa = PBXGroup;
 			children = (
+				A9B7EE451CDE1BBC0007D1F0 /* TwitterLogo.png */,
+				A9B7EE431CDE17930007D1F0 /* LaunchScreenImage.png */,
 				A9B7EE151CDE149F0007D1F0 /* AppDelegate.swift */,
+				A9B7EE1E1CDE14A00007D1F0 /* Launchscreen.storyboard */,
 				A9B7EE171CDE149F0007D1F0 /* ViewController.swift */,
-				A9B7EE191CDE14A00007D1F0 /* Main.storyboard */,
 				A9B7EE1C1CDE14A00007D1F0 /* Assets.xcassets */,
-				A9B7EE1E1CDE14A00007D1F0 /* LaunchScreen.storyboard */,
+				A9B7EE191CDE14A00007D1F0 /* Main.storyboard */,
 				A9B7EE211CDE14A00007D1F0 /* Info.plist */,
 			);
 			path = Share;
@@ -229,8 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9B7EE201CDE14A00007D1F0 /* LaunchScreen.storyboard in Resources */,
+				A9B7EE461CDE1BBC0007D1F0 /* TwitterLogo.png in Resources */,
+				A9B7EE201CDE14A00007D1F0 /* Launchscreen.storyboard in Resources */,
 				A9B7EE1D1CDE14A00007D1F0 /* Assets.xcassets in Resources */,
+				A9B7EE441CDE17930007D1F0 /* LaunchScreenImage.png in Resources */,
 				A9B7EE1B1CDE14A00007D1F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,12 +309,12 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A9B7EE1E1CDE14A00007D1F0 /* LaunchScreen.storyboard */ = {
+		A9B7EE1E1CDE14A00007D1F0 /* Launchscreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A9B7EE1F1CDE14A00007D1F0 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Launchscreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
