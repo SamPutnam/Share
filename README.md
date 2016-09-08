@@ -1,5 +1,5 @@
 # Share
-For sharing to Facebook and Twitter.
+This is an iOS app that uses the Social and Accounts frameworks to share to Facebook and Twitter. It's best exemplified with the below GIF.
 
 <img src="http://i.imgur.com/pgQfprX.png" width=200>
 
