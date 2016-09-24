@@ -1,5 +1,5 @@
 # Share
-This is an iOS app that uses the Social and Accounts frameworks to share to Facebook and Twitter. It's best exemplified with the below GIF.
+This is a set of Swift methods that use the Social and Accounts frameworks to share to Facebook and Twitter. It's best exemplified with the below GIF.
 
 <img src="http://i.imgur.com/pgQfprX.png" width=200>
 
